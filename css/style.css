@@ -363,6 +363,65 @@ header .navbar ul li a:hover{
     color:var(--yellow);
 }
 
+
+
+.testimonies .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.testimonies .box-container .box{
+    height: 20rem;
+    width:26rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.testimonies .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.testimonies .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+.testimony {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .testimony h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .testimony p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .top{
     position: fixed;
     bottom:7.5rem; right: 2rem;
