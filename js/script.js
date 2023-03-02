@@ -4,6 +4,11 @@ $(document).ready(function(){
     $(this).toggleClass('fa-times');
     $('header').toggleClass('toggle');
   });
+  $(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
 
   $(window).on('scroll load',function(){
 
